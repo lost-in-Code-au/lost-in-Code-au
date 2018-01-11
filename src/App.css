@@ -2,8 +2,35 @@
   text-align: center;
 }
 
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif, serif;
+  background-color: #333;
+  width: 960px;
+  height: 64px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: orange;
+}
+
+a:hover {
+  color: orange;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.markDownContainer {
+  background-color: #858585;
+}
+
+
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
@@ -20,9 +47,4 @@
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
