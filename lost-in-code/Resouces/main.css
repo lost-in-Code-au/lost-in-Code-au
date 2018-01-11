@@ -1,0 +1,195 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif, serif;
+  background-color: #333;
+  width: 960px;
+  height: 64px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: orange;
+}
+
+.markDownContainer {
+  background-color: #858585;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visted {
+  color: purple;
+}
+
+.leftNav a {
+  color: #858585;
+}
+
+nav {
+  width: 960px;
+  height: 64px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.leftNav {
+  float: left;
+  margin-left: -40px;
+}
+
+.rightNav {
+  float: right;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+}
+
+.info {
+  vertical-align: middle;
+  width: 960px;
+  height: 200px;
+  background-color: #858585;
+  display: inline-block;
+}
+
+.cv {
+  margin: auto;
+  border-width: 1px;
+  border-color: #fff;
+  max-width: 80%;
+}
+
+.info h2 {
+  display: block;
+  padding-left: 25px;
+}
+
+.info p {
+  padding-left: 25px;
+  padding-right: 145px;
+}
+
+.info img{
+  margin: 15px;
+  height: 170px;
+  width: auto;
+  float: left;
+}
+
+.feature {
+  vertical-align: middle;
+  width: 960px;
+  height: 200px;
+  margin-top: 15px;
+  background-color: #858585;
+  display: inline-block;
+}
+
+.skillsNexp {
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+
+.skillsNexp h4 {
+  margin-left: 25px;
+}
+
+.skillsNexp ul {
+  display:inline-block
+}
+
+.skillsNexp li {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.projects {
+  width: 560px;
+  overflow-x: scroll;
+  height: 198px;
+  /*border:1px solid #ccc;*/
+  white-space: nowrap;
+  float: right;
+}
+
+#id01 {
+  background-image: url("../public/githubcontin.png");
+  margin: 15px;
+  border: 1px solid #ccc;
+  height: 165px;
+  width: auto;
+  flex: none;
+  white-space: nowrap;
+}
+
+.box {
+  /*background-color: black;*/
+  position: relative;
+  margin: 15px;
+  border: 1px solid #ccc;
+  /*outline: 2px solid #CCC;*/
+  height: 135px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.box a {
+  text-decoration: none;
+  text-decoration-color: orange;
+}
+
+.box a:hover {
+  color: orange;
+}
+
+.box a:visted {
+  color: purple;
+}
+
+.box a {
+  color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+/*}
+
+@media (min-width: 858px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 32px;
+    }
+}*/
