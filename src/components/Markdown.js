@@ -13,8 +13,8 @@ class Markdown extends Component {
 
   componentDidMount() {
     var xmlhttp = new XMLHttpRequest()
-    var url = "https://raw.githubusercontent.com/lost-in-Code-au/lost-in-code-au/master/README.md"
-    // var url = '../README.md'
+    // var url = "https://raw.githubusercontent.com/lost-in-Code-au/lost-in-code-au/master/README.md"
+    var url = '../README.md'
 
     new Promise((resolve, reject) => {
       xmlhttp.onreadystatechange = function() {
