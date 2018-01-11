@@ -48,3 +48,12 @@ nav li {
 .App-intro {
   font-size: large;
 }
+
+.markdown-body {
+  padding: 45px;
+  word-wrap: break-word;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}

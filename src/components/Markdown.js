@@ -14,6 +14,7 @@ class Markdown extends Component {
   componentDidMount() {
     var xmlhttp = new XMLHttpRequest()
     var url = "https://raw.githubusercontent.com/lost-in-Code-au/lost-in-code-au/master/README.md"
+    // var url = '../README.md'
 
     new Promise((resolve, reject) => {
       xmlhttp.onreadystatechange = function() {
@@ -34,7 +35,7 @@ class Markdown extends Component {
     return (
       <div  className='markDownContainer'>
         <p className='markdownHint'>this CV was rendered in Markdown</p>
-        <div className='cv' dangerouslySetInnerHTML={{__html: marked(this.state.markDown)}}></div>
+        <div className='markdown-body' dangerouslySetInnerHTML={{__html: marked(this.state.markDown)}}></div>
       </div>
     )
   }
